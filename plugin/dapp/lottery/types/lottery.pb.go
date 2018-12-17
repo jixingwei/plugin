@@ -3,6 +3,7 @@
 
 package types
 
+
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
@@ -32,7 +33,7 @@ func (m *PurchaseRecord) Reset()         { *m = PurchaseRecord{} }
 func (m *PurchaseRecord) String() string { return proto.CompactTextString(m) }
 func (*PurchaseRecord) ProtoMessage()    {}
 func (*PurchaseRecord) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{0}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{0}
 }
 func (m *PurchaseRecord) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_PurchaseRecord.Unmarshal(m, b)
@@ -94,7 +95,7 @@ func (m *PurchaseRecords) Reset()         { *m = PurchaseRecords{} }
 func (m *PurchaseRecords) String() string { return proto.CompactTextString(m) }
 func (*PurchaseRecords) ProtoMessage()    {}
 func (*PurchaseRecords) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{1}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{1}
 }
 func (m *PurchaseRecords) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_PurchaseRecords.Unmarshal(m, b)
@@ -174,7 +175,7 @@ func (m *Lottery) Reset()         { *m = Lottery{} }
 func (m *Lottery) String() string { return proto.CompactTextString(m) }
 func (*Lottery) ProtoMessage()    {}
 func (*Lottery) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{2}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{2}
 }
 func (m *Lottery) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Lottery.Unmarshal(m, b)
@@ -352,7 +353,7 @@ func (m *MissingRecord) Reset()         { *m = MissingRecord{} }
 func (m *MissingRecord) String() string { return proto.CompactTextString(m) }
 func (*MissingRecord) ProtoMessage()    {}
 func (*MissingRecord) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{3}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{3}
 }
 func (m *MissingRecord) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_MissingRecord.Unmarshal(m, b)
@@ -396,7 +397,7 @@ func (m *LotteryAction) Reset()         { *m = LotteryAction{} }
 func (m *LotteryAction) String() string { return proto.CompactTextString(m) }
 func (*LotteryAction) ProtoMessage()    {}
 func (*LotteryAction) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{4}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{4}
 }
 func (m *LotteryAction) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryAction.Unmarshal(m, b)
@@ -606,7 +607,7 @@ func (m *LotteryCreate) Reset()         { *m = LotteryCreate{} }
 func (m *LotteryCreate) String() string { return proto.CompactTextString(m) }
 func (*LotteryCreate) ProtoMessage()    {}
 func (*LotteryCreate) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{5}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{5}
 }
 func (m *LotteryCreate) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryCreate.Unmarshal(m, b)
@@ -668,7 +669,7 @@ func (m *LotteryBuy) Reset()         { *m = LotteryBuy{} }
 func (m *LotteryBuy) String() string { return proto.CompactTextString(m) }
 func (*LotteryBuy) ProtoMessage()    {}
 func (*LotteryBuy) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{6}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{6}
 }
 func (m *LotteryBuy) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryBuy.Unmarshal(m, b)
@@ -727,7 +728,7 @@ func (m *LotteryDraw) Reset()         { *m = LotteryDraw{} }
 func (m *LotteryDraw) String() string { return proto.CompactTextString(m) }
 func (*LotteryDraw) ProtoMessage()    {}
 func (*LotteryDraw) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{7}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{7}
 }
 func (m *LotteryDraw) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryDraw.Unmarshal(m, b)
@@ -765,7 +766,7 @@ func (m *LotteryClose) Reset()         { *m = LotteryClose{} }
 func (m *LotteryClose) String() string { return proto.CompactTextString(m) }
 func (*LotteryClose) ProtoMessage()    {}
 func (*LotteryClose) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{8}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{8}
 }
 func (m *LotteryClose) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryClose.Unmarshal(m, b)
@@ -818,7 +819,7 @@ func (m *ReceiptLottery) Reset()         { *m = ReceiptLottery{} }
 func (m *ReceiptLottery) String() string { return proto.CompactTextString(m) }
 func (*ReceiptLottery) ProtoMessage()    {}
 func (*ReceiptLottery) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{9}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{9}
 }
 func (m *ReceiptLottery) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReceiptLottery.Unmarshal(m, b)
@@ -961,7 +962,7 @@ func (m *ReqLotteryInfo) Reset()         { *m = ReqLotteryInfo{} }
 func (m *ReqLotteryInfo) String() string { return proto.CompactTextString(m) }
 func (*ReqLotteryInfo) ProtoMessage()    {}
 func (*ReqLotteryInfo) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{10}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{10}
 }
 func (m *ReqLotteryInfo) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReqLotteryInfo.Unmarshal(m, b)
@@ -1001,7 +1002,7 @@ func (m *ReqLotteryBuyInfo) Reset()         { *m = ReqLotteryBuyInfo{} }
 func (m *ReqLotteryBuyInfo) String() string { return proto.CompactTextString(m) }
 func (*ReqLotteryBuyInfo) ProtoMessage()    {}
 func (*ReqLotteryBuyInfo) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{11}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{11}
 }
 func (m *ReqLotteryBuyInfo) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReqLotteryBuyInfo.Unmarshal(m, b)
@@ -1058,7 +1059,7 @@ func (m *ReqLotteryBuyHistory) Reset()         { *m = ReqLotteryBuyHistory{} }
 func (m *ReqLotteryBuyHistory) String() string { return proto.CompactTextString(m) }
 func (*ReqLotteryBuyHistory) ProtoMessage()    {}
 func (*ReqLotteryBuyHistory) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{12}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{12}
 }
 func (m *ReqLotteryBuyHistory) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReqLotteryBuyHistory.Unmarshal(m, b)
@@ -1132,7 +1133,7 @@ func (m *ReqLotteryLuckyInfo) Reset()         { *m = ReqLotteryLuckyInfo{} }
 func (m *ReqLotteryLuckyInfo) String() string { return proto.CompactTextString(m) }
 func (*ReqLotteryLuckyInfo) ProtoMessage()    {}
 func (*ReqLotteryLuckyInfo) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{13}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{13}
 }
 func (m *ReqLotteryLuckyInfo) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReqLotteryLuckyInfo.Unmarshal(m, b)
@@ -1180,7 +1181,7 @@ func (m *ReqLotteryLuckyHistory) Reset()         { *m = ReqLotteryLuckyHistory{}
 func (m *ReqLotteryLuckyHistory) String() string { return proto.CompactTextString(m) }
 func (*ReqLotteryLuckyHistory) ProtoMessage()    {}
 func (*ReqLotteryLuckyHistory) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{14}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{14}
 }
 func (m *ReqLotteryLuckyHistory) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReqLotteryLuckyHistory.Unmarshal(m, b)
@@ -1244,7 +1245,7 @@ func (m *ReplyLotteryNormalInfo) Reset()         { *m = ReplyLotteryNormalInfo{}
 func (m *ReplyLotteryNormalInfo) String() string { return proto.CompactTextString(m) }
 func (*ReplyLotteryNormalInfo) ProtoMessage()    {}
 func (*ReplyLotteryNormalInfo) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{15}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{15}
 }
 func (m *ReplyLotteryNormalInfo) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReplyLotteryNormalInfo.Unmarshal(m, b)
@@ -1330,7 +1331,7 @@ func (m *ReplyLotteryCurrentInfo) Reset()         { *m = ReplyLotteryCurrentInfo
 func (m *ReplyLotteryCurrentInfo) String() string { return proto.CompactTextString(m) }
 func (*ReplyLotteryCurrentInfo) ProtoMessage()    {}
 func (*ReplyLotteryCurrentInfo) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{16}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{16}
 }
 func (m *ReplyLotteryCurrentInfo) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReplyLotteryCurrentInfo.Unmarshal(m, b)
@@ -1459,7 +1460,7 @@ func (m *ReplyLotteryHistoryLuckyNumber) Reset()         { *m = ReplyLotteryHist
 func (m *ReplyLotteryHistoryLuckyNumber) String() string { return proto.CompactTextString(m) }
 func (*ReplyLotteryHistoryLuckyNumber) ProtoMessage()    {}
 func (*ReplyLotteryHistoryLuckyNumber) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{17}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{17}
 }
 func (m *ReplyLotteryHistoryLuckyNumber) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReplyLotteryHistoryLuckyNumber.Unmarshal(m, b)
@@ -1497,7 +1498,7 @@ func (m *ReplyLotteryShowInfo) Reset()         { *m = ReplyLotteryShowInfo{} }
 func (m *ReplyLotteryShowInfo) String() string { return proto.CompactTextString(m) }
 func (*ReplyLotteryShowInfo) ProtoMessage()    {}
 func (*ReplyLotteryShowInfo) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{18}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{18}
 }
 func (m *ReplyLotteryShowInfo) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReplyLotteryShowInfo.Unmarshal(m, b)
@@ -1536,7 +1537,7 @@ func (m *LotteryNumberRecord) Reset()         { *m = LotteryNumberRecord{} }
 func (m *LotteryNumberRecord) String() string { return proto.CompactTextString(m) }
 func (*LotteryNumberRecord) ProtoMessage()    {}
 func (*LotteryNumberRecord) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{19}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{19}
 }
 func (m *LotteryNumberRecord) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryNumberRecord.Unmarshal(m, b)
@@ -1589,7 +1590,7 @@ func (m *LotteryBuyRecord) Reset()         { *m = LotteryBuyRecord{} }
 func (m *LotteryBuyRecord) String() string { return proto.CompactTextString(m) }
 func (*LotteryBuyRecord) ProtoMessage()    {}
 func (*LotteryBuyRecord) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{20}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{20}
 }
 func (m *LotteryBuyRecord) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryBuyRecord.Unmarshal(m, b)
@@ -1676,7 +1677,7 @@ func (m *LotteryBuyRecords) Reset()         { *m = LotteryBuyRecords{} }
 func (m *LotteryBuyRecords) String() string { return proto.CompactTextString(m) }
 func (*LotteryBuyRecords) ProtoMessage()    {}
 func (*LotteryBuyRecords) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{21}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{21}
 }
 func (m *LotteryBuyRecords) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryBuyRecords.Unmarshal(m, b)
@@ -1719,7 +1720,7 @@ func (m *LotteryDrawRecord) Reset()         { *m = LotteryDrawRecord{} }
 func (m *LotteryDrawRecord) String() string { return proto.CompactTextString(m) }
 func (*LotteryDrawRecord) ProtoMessage()    {}
 func (*LotteryDrawRecord) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{22}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{22}
 }
 func (m *LotteryDrawRecord) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryDrawRecord.Unmarshal(m, b)
@@ -1792,7 +1793,7 @@ func (m *LotteryDrawRecords) Reset()         { *m = LotteryDrawRecords{} }
 func (m *LotteryDrawRecords) String() string { return proto.CompactTextString(m) }
 func (*LotteryDrawRecords) ProtoMessage()    {}
 func (*LotteryDrawRecords) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{23}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{23}
 }
 func (m *LotteryDrawRecords) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryDrawRecords.Unmarshal(m, b)
@@ -1831,7 +1832,7 @@ func (m *LotteryUpdateRec) Reset()         { *m = LotteryUpdateRec{} }
 func (m *LotteryUpdateRec) String() string { return proto.CompactTextString(m) }
 func (*LotteryUpdateRec) ProtoMessage()    {}
 func (*LotteryUpdateRec) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{24}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{24}
 }
 func (m *LotteryUpdateRec) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryUpdateRec.Unmarshal(m, b)
@@ -1876,7 +1877,7 @@ func (m *LotteryUpdateRecs) Reset()         { *m = LotteryUpdateRecs{} }
 func (m *LotteryUpdateRecs) String() string { return proto.CompactTextString(m) }
 func (*LotteryUpdateRecs) ProtoMessage()    {}
 func (*LotteryUpdateRecs) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{25}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{25}
 }
 func (m *LotteryUpdateRecs) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryUpdateRecs.Unmarshal(m, b)
@@ -1914,7 +1915,7 @@ func (m *LotteryUpdateBuyInfo) Reset()         { *m = LotteryUpdateBuyInfo{} }
 func (m *LotteryUpdateBuyInfo) String() string { return proto.CompactTextString(m) }
 func (*LotteryUpdateBuyInfo) ProtoMessage()    {}
 func (*LotteryUpdateBuyInfo) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{26}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{26}
 }
 func (m *LotteryUpdateBuyInfo) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryUpdateBuyInfo.Unmarshal(m, b)
@@ -1952,7 +1953,7 @@ func (m *ReplyLotteryPurchaseAddr) Reset()         { *m = ReplyLotteryPurchaseAd
 func (m *ReplyLotteryPurchaseAddr) String() string { return proto.CompactTextString(m) }
 func (*ReplyLotteryPurchaseAddr) ProtoMessage()    {}
 func (*ReplyLotteryPurchaseAddr) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{27}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{27}
 }
 func (m *ReplyLotteryPurchaseAddr) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReplyLotteryPurchaseAddr.Unmarshal(m, b)
@@ -1990,7 +1991,7 @@ func (m *LotteryGainInfos) Reset()         { *m = LotteryGainInfos{} }
 func (m *LotteryGainInfos) String() string { return proto.CompactTextString(m) }
 func (*LotteryGainInfos) ProtoMessage()    {}
 func (*LotteryGainInfos) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{28}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{28}
 }
 func (m *LotteryGainInfos) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryGainInfos.Unmarshal(m, b)
@@ -2030,7 +2031,7 @@ func (m *LotteryGainInfo) Reset()         { *m = LotteryGainInfo{} }
 func (m *LotteryGainInfo) String() string { return proto.CompactTextString(m) }
 func (*LotteryGainInfo) ProtoMessage()    {}
 func (*LotteryGainInfo) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{29}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{29}
 }
 func (m *LotteryGainInfo) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryGainInfo.Unmarshal(m, b)
@@ -2085,7 +2086,7 @@ func (m *LotteryGainRecord) Reset()         { *m = LotteryGainRecord{} }
 func (m *LotteryGainRecord) String() string { return proto.CompactTextString(m) }
 func (*LotteryGainRecord) ProtoMessage()    {}
 func (*LotteryGainRecord) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{30}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{30}
 }
 func (m *LotteryGainRecord) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryGainRecord.Unmarshal(m, b)
@@ -2144,7 +2145,7 @@ func (m *LotteryGainRecords) Reset()         { *m = LotteryGainRecords{} }
 func (m *LotteryGainRecords) String() string { return proto.CompactTextString(m) }
 func (*LotteryGainRecords) ProtoMessage()    {}
 func (*LotteryGainRecords) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{31}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{31}
 }
 func (m *LotteryGainRecords) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LotteryGainRecords.Unmarshal(m, b)
@@ -2186,7 +2187,7 @@ func (m *ReqLotteryGainHistory) Reset()         { *m = ReqLotteryGainHistory{} }
 func (m *ReqLotteryGainHistory) String() string { return proto.CompactTextString(m) }
 func (*ReqLotteryGainHistory) ProtoMessage()    {}
 func (*ReqLotteryGainHistory) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{32}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{32}
 }
 func (m *ReqLotteryGainHistory) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReqLotteryGainHistory.Unmarshal(m, b)
@@ -2254,7 +2255,7 @@ func (m *ReqLotteryGainInfo) Reset()         { *m = ReqLotteryGainInfo{} }
 func (m *ReqLotteryGainInfo) String() string { return proto.CompactTextString(m) }
 func (*ReqLotteryGainInfo) ProtoMessage()    {}
 func (*ReqLotteryGainInfo) Descriptor() ([]byte, []int) {
-	return fileDescriptor_lottery_c7e98509722f908f, []int{33}
+	return fileDescriptor_lottery_fb9246f3fb2cd0fb, []int{33}
 }
 func (m *ReqLotteryGainInfo) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ReqLotteryGainInfo.Unmarshal(m, b)
@@ -2333,9 +2334,9 @@ func init() {
 	proto.RegisterType((*ReqLotteryGainInfo)(nil), "types.ReqLotteryGainInfo")
 }
 
-func init() { proto.RegisterFile("lottery.proto", fileDescriptor_lottery_c7e98509722f908f) }
+func init() { proto.RegisterFile("lottery.proto", fileDescriptor_lottery_fb9246f3fb2cd0fb) }
 
-var fileDescriptor_lottery_c7e98509722f908f = []byte{
+var fileDescriptor_lottery_fb9246f3fb2cd0fb = []byte{
 	// 1462 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xcc, 0x58, 0xdd, 0x6e, 0xdc, 0x44,
 	0x14, 0x8e, 0xff, 0x76, 0xb3, 0x67, 0xb3, 0x9b, 0x66, 0x92, 0xa6, 0xa6, 0xa0, 0x28, 0xb2, 0x28,
